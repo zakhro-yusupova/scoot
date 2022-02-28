@@ -1,0 +1,9 @@
+{
+    "version": 3,
+    "mappings": "AAAA,AAAA,cAAc,CAAA;EACZ,KAAK,EAAE,IAAI;EACX,MAAM,EAAE,KAAK;EACb,gBAAgB,EAAE,kCAAkC;EACpD,iBAAiB,EAAE,SAAS;EAC5B,eAAe,EAAE,KAAK;EACtB,OAAO,EAAE,OAAO;CACf",
+    "sources": [
+        "../scss/blocks/location-hero.scss"
+    ],
+    "names": [],
+    "file": "location-hero.css"
+}

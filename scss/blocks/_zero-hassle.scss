@@ -1,0 +1,29 @@
+.zero-hassle{
+  padding:100px 0 200px;
+  background-image: url("../../images/zero-hassle-bg.png");
+  background-repeat: no-repeat;
+  background-position: calc(50% + 640px) calc(50%);
+}
+
+.zero-hassle__content{
+width: 445px;
+}
+
+.zero-hassle__title{
+  font-weight: bold;
+  font-size: 48px;
+  line-height: 48px;
+  letter-spacing: -2.14286px;
+  color: $title-color;
+  margin: 0;
+}
+
+.zero-hassle__text{
+  font-family: "Lexend Deca";
+  font-style: normal;
+  font-weight: normal;
+  font-size: 15px;
+  line-height: 25px;
+  color: $text-color;
+  margin: 24px 0 40px;
+}

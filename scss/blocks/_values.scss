@@ -1,0 +1,47 @@
+.join{
+  padding: 80px 0 120px;
+}
+
+.join__title{
+  font-weight: bold;
+  font-size: 48px;
+  line-height: 48px;
+  text-align: center;
+  letter-spacing: -2.14286px;
+  color: $title-color;
+  margin-bottom: 103px;
+}
+
+.join__list{
+  display: flex;
+  align-items: center;
+  list-style-type: none;
+  padding: 0;
+}
+
+.join__item{
+  width: 350px;
+  text-align: center;
+
+  &:nth-child(2){
+    margin: 0 30px;
+  }
+}
+
+.join__subtitle{
+  font-weight: bold;
+  font-size: 24px;
+  line-height: 28px;
+  letter-spacing: -1.07143px;
+  margin: 32px 0 27px;
+  color: $title-color;
+}
+
+.join__text{
+  font-family: "Lexend Deca";
+  font-style: normal;
+  font-weight: normal;
+  font-size: 15px;
+  line-height: 25px;
+  color: $text-color;
+}

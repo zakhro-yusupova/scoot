@@ -1,0 +1,29 @@
+.easy{
+  padding:100px 0 126px;
+  background-image: url("../../images/telemetry-bg.png");
+  background-repeat: no-repeat;
+  background-position: calc(50% + 570px) calc(50% - 50px);
+}
+
+.easy__content{
+width: 445px;
+}
+
+.easy__title{
+  font-weight: bold;
+  font-size: 48px;
+  line-height: 48px;
+  letter-spacing: -2.14286px;
+  color: $title-color;
+  margin: 0;
+}
+
+.easy__text{
+  font-family: "Lexend Deca";
+  font-style: normal;
+  font-weight: normal;
+  font-size: 15px;
+  line-height: 25px;
+  color: $text-color;
+  margin: 24px 0 40px;
+}

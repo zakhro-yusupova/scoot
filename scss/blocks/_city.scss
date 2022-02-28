@@ -1,0 +1,35 @@
+.city{
+padding: 120px 0;
+}
+
+.city__content{
+  display: flex;
+  align-items: center;
+  margin-top: 120px;
+}
+
+.city__content-info{
+  display: flex;
+  align-items: flex-start;
+}
+.city__title{
+  font-weight: bold;
+  font-size: 48px;
+  line-height: 48px;
+  letter-spacing: -2.14286px;
+  color: $title-color;
+  margin: 0;
+  margin-right: 60px;
+}
+
+.city__text-content{
+width: 445px;
+margin-right: 100px;
+}
+
+.city__text{
+  font-size: 15px;
+  line-height: 25px;
+  color: $text-color;
+  margin: 0;
+}

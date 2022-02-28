@@ -1,0 +1,35 @@
+.urban{
+  padding: 150px 0 150px;
+  background-image: url("../../images/urban-living-bg.png");
+  background-repeat: no-repeat;
+  background-position: calc(50% - 660px) calc(50%);
+  }
+
+  .urban__inner{
+    display: flex;
+    justify-content: flex-end;
+  }
+
+  .urban__content{
+  width: 445px;
+  }
+
+  .urban__title{
+    font-weight: bold;
+  font-size: 48px;
+  line-height: 48px;
+  letter-spacing: -2.14286px;
+  color: $title-color;
+  margin: 0;
+  }
+
+
+  .urban__text{
+    font-family: "Lexend Deca";
+    font-style: normal;
+    font-weight: normal;
+    font-size: 15px;
+    line-height: 25px;
+    color: $text-color;
+    margin-top: 24px;
+  }

@@ -1,0 +1,33 @@
+.mission{
+  padding: 250px 0 100px ;
+  background-image: url("../../images/mission.png");
+  background-repeat: no-repeat;
+  background-position: calc(50% + 560px) calc(50% + 60px);
+}
+
+.mission__content{
+width: 445px;
+}
+
+.mission__title{
+  font-weight: bold;
+  font-size: 48px;
+  line-height: 48px;
+  letter-spacing: -2.14286px;
+  color: $title-color;
+  margin: 0;
+}
+
+.mission__text{
+  font-family: "Lexend Deca";
+  font-style: normal;
+  font-weight: normal;
+  font-size: 15px;
+  line-height: 25px;
+  color: $text-color;
+  margin-top: 24px;
+}
+
+.mission__link{
+  padding: 14px 48px;
+}

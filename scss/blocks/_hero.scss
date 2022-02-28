@@ -1,0 +1,36 @@
+.hero{
+  padding: 153px 0;
+  background-image: url("../../images/Bitmap.jpg") ;
+  background-repeat: no-repeat;
+  // background-position:center,  calc(50% - 10px) calc(50% + 100px);
+  // background-image: url("../../images/hero-bg-arrows.png");
+  background-size: cover
+}
+
+
+.hero__content{
+  width: 500px;
+  color: $white-color;
+  z-index: 3;
+}
+
+.hero__title{
+  font-size: 56px;
+  line-height: 56px;
+  letter-spacing: -2.5px;
+  margin: 0;
+
+}
+
+.hero__content-info{
+  padding-left:95px;
+}
+
+.hero__text{
+  font-family: "Lexend Deca";
+  font-style: normal;
+  font-weight: normal;
+  font-size: 15px;
+  line-height: 25px;
+  margin: 40px 0;
+}

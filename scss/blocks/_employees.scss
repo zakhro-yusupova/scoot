@@ -1,0 +1,42 @@
+.employees{
+  padding-bottom: 160px;
+}
+
+.employees__list{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  list-style-type: none;
+  padding: 0;
+}
+
+.employees__item{
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 35px 60px 35px 40px;
+  background-color: #F2F5F9;
+  color: $title-color;
+  margin-bottom: 24px;
+
+  &:last-child{
+    margin-bottom: 0;
+  }
+}
+
+.employees__title{
+  font-weight: bold;
+  font-size: 24px;
+  line-height: 28px;
+  letter-spacing: -1.07143px;
+  margin: 0;
+}
+
+.employees__country{
+  font-family: "Lexend Deca";
+  font-style: normal;
+  font-weight: normal;
+  font-size: 15px;
+  line-height: 25px;
+}
