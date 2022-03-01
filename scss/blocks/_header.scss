@@ -1,26 +1,24 @@
-.site-header{
-padding: 22px 0;
-}
 
 .site-header__inner{
   display: flex;
-  align-items: center ;
+  align-items: center !important ;
+  padding: 22px 0;
 }
 
 .site-header__logo-link:hover{
 opacity: 0.8;
 }
 
-.site-header__navbar{
+.site-header__menu{
   width: 100%;
   display: flex;
-  align-items: center;
+  align-items: center !important;
   margin-left: 55px;
 }
 
 .site-header__list{
   display: flex;
-  align-items: center;
+  align-items: center !important;
   list-style-type: none;
   margin-right: auto;
   padding: 0;
@@ -31,6 +29,7 @@ margin: 0 32px;
 }
 
 .site-header__item-link{
+  font-weight: bold;
   font-size: 15px;
   line-height: 25px;
   text-decoration: none;
