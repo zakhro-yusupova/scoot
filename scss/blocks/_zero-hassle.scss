@@ -47,3 +47,24 @@ width: 445px;
     padding-top: 700px;
   }
 }
+
+@media only screen and (max-width: 426px){
+
+  .zero-hassle{
+    width: 100%;
+    padding: 100px 0;
+    background-image: url("../../images/zero-mobile.png");
+    background-position: calc(50% + 20px) calc(50% - 150px);
+    background-size: 100% ;
+  }
+
+  .zero-hassle__content{
+    width: 80%;
+    padding-top: 500px;
+  }
+
+  .zero-hassle__title{
+    font-size: 32px;
+    line-height: 32px;
+  }
+}
