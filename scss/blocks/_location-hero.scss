@@ -1,6 +1,6 @@
 .location-hero{
   padding: 62px 0;
-  background-image: url("../../images/about-bg.png");
+  background-image: url("../../images/careers-bg.png");
   background-repeat: no-repeat;
   background-size: cover;
 }
@@ -27,4 +27,13 @@
   letter-spacing: -2.5px;
   color: $white-color;
   margin: 0;
+}
+
+
+@media only screen and (max-width: 769px){
+
+.location-hero{
+  background-image: url("../../images/location-tablet-bg.png");
+}
+
 }

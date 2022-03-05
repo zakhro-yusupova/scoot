@@ -28,3 +28,16 @@
     color: $white-color;
     margin: 0;
   }
+
+
+  @media only screen and (max-width: 769px){
+
+  .about-hero{
+    background-image: url("../../images/about-tablet-bg.png");
+  }
+
+
+  .about-hero__title{
+    padding-left: 92px;
+  }
+  }

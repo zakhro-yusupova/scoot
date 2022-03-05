@@ -33,3 +33,22 @@
     color: $text-color;
     margin-top: 24px;
   }
+
+
+
+  @media only screen and (max-width: 769px){
+
+    .urban{
+      width: 100%;
+      padding: 0;
+      background-position: calc(50% - 280px) calc(50% - 100px );
+      background-size: center;
+    }
+
+    .urban__content{
+      width: 70%;
+      margin: 0 auto;
+      text-align: center;
+      padding-top: 700px;
+    }
+  }

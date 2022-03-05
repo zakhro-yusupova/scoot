@@ -29,3 +29,14 @@
   color: $white-color;
   margin: 0;
 }
+
+@media only screen and (max-width: 769px){
+
+  .careers-hero{
+    background-image: url("../../images/location-tablet-bg.png");
+  }
+
+  .careers-hero__title{
+    padding-left: 90px;
+  }
+  }

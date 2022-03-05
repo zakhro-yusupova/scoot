@@ -1,8 +1,8 @@
 .process{
-padding: 160px 0 100px;
-background-image: url("../../images/line-locate.png");
-background-repeat: no-repeat;
-background-position: calc(50% - 280px) calc(50% - 70px);
+  padding: 160px 0 100px;
+  background-image: url("../../images/line-locate.png");
+  background-repeat: no-repeat;
+  background-position: calc(50% - 280px) calc(50% - 70px);
 }
 
 .process__list{
@@ -14,7 +14,7 @@ background-position: calc(50% - 280px) calc(50% - 70px);
 }
 
 .process__item{
-width: 350px;
+  width: 350px;
 }
 
 .process__subtitle{
@@ -33,4 +33,73 @@ width: 350px;
   font-size: 15px;
   line-height: 25px;
   color: $text-color;
+}
+
+
+@media only screen and (max-width: 769px){
+
+  .process{
+    padding-top: 100px;
+    padding-bottom: 0;
+    background-image: url("../../images/tablet-line.png");
+    background-position: calc(50% - 280px) calc(50% - 100px);
+  }
+
+  .process__list{
+    width: 100%;
+    flex-direction: column;
+  }
+
+  .process__item{
+    width: 90%;
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    margin-bottom: 40px;
+  }
+
+  .process__img{
+    width: 96px;
+    height: 96px;
+    margin-right: 79px;
+  }
+
+  .process__subtitle{
+    margin-top: 0;
+  }
+
+  // .process__item-info{
+  //   max-width: 65%;
+  // }
+}
+
+@media only screen and (max-width: 560px){
+
+  .process__list{
+    flex-direction: column;
+  }
+
+  .process__item{
+    width: 100%;
+    display: block;
+    text-align: center;
+    margin-bottom: 48px;
+    margin-right: 0;
+  }
+
+  .process__img{
+
+    margin: 0;
+  }
+
+  .process__item-info{
+    width: 90%;
+    text-align: center;
+    margin: 0 auto;
+  }
+
+  .process__subtitle{
+    margin-top: 40px;
+    font-size: 20px;
+  }
 }

@@ -27,3 +27,21 @@ width: 445px;
   color: $text-color;
   margin-top: 24px;
 }
+
+
+@media only screen and (max-width: 769px){
+
+  .mobility{
+    width: 100%;
+    padding: 0;
+    background-position: calc(50% + 200px) calc(50% - 50px);
+    background-size: center ;
+  }
+
+  .mobility__content{
+    width: 70%;
+    margin: 0 auto;
+    text-align: center;
+    padding-top: 700px;
+  }
+}

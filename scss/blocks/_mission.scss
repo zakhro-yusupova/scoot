@@ -31,3 +31,25 @@ width: 445px;
 .mission__link{
   padding: 14px 48px;
 }
+
+
+@media only screen and (max-width: 769px){
+
+  .mission{
+    width: 100%;
+    padding: 0;
+    background-position: calc(50% + 200px) calc(50% - 100px);
+    background-size: center ;
+  }
+
+  .mission__content{
+    width: 70%;
+    margin: 0 auto;
+    text-align: center;
+    padding-top: 700px;
+  }
+
+  .mission__text{
+    margin-bottom: 40px;
+  }
+}

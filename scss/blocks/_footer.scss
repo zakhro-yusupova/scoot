@@ -69,20 +69,20 @@
 }
 
 .footer__item:nth-child(2){
-margin: 0 32px;
+  margin: 0 32px;
 }
 
 .footer__item-link{
   font-weight: bold;
   font-size: 15px;
-line-height: 25px;
-color:$text-color;
-text-decoration: none;
-transition: 1s ease;
+  line-height: 25px;
+  color:$text-color;
+  text-decoration: none;
+  transition: 1s ease;
 
-&:hover{
-  color: $background-color;
-}
+  &:hover{
+    color: $background-color;
+  }
 }
 
 .footer__social-list{
@@ -93,7 +93,7 @@ transition: 1s ease;
 }
 
 .footer__social-item:nth-child(2){
-margin: 0 24px;
+  margin: 0 24px;
 }
 
 .footer__social-link{
@@ -102,8 +102,37 @@ margin: 0 24px;
 
 .footer__social-img{
   transition: 0.5s ease;
-fill: $background-color;
+  fill: $background-color;
   &:hover{
     fill: #E5ECF4;;
+  }
+}
+
+
+@media only screen and (max-width: 769px){
+
+  .footer{
+    padding-top: 100px;
+  }
+  .footer-signup{
+
+    background-position: calc(50% - 320px) calc(50% + 50px );
+
+  }
+
+  .footer-signup__inner{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+  }
+
+
+  .footer-signup__download-info{
+    margin-top: 40px;
+  }
+
+
+  .footer__bottom .container{
+    padding: 0 40px;
   }
 }

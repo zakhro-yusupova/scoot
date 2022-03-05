@@ -1,5 +1,5 @@
 .city{
-padding: 120px 0;
+  padding: 120px 0;
 }
 
 .city__content{
@@ -12,6 +12,7 @@ padding: 120px 0;
   display: flex;
   align-items: flex-start;
 }
+
 .city__title{
   font-weight: bold;
   font-size: 48px;
@@ -23,13 +24,50 @@ padding: 120px 0;
 }
 
 .city__text-content{
-width: 445px;
-margin-right: 100px;
+  width: 445px;
+  margin-right: 100px;
 }
 
 .city__text{
+  font-family: "Lexend Deca";
+  font-style: normal;
+  font-weight: normal;
   font-size: 15px;
   line-height: 25px;
   color: $text-color;
   margin: 0;
+}
+
+
+@media only screen and (max-width: 769px){
+
+  .city{
+    padding-bottom: 0;
+  }
+
+  .city__content{
+
+    align-items: center;
+    flex-direction: column;
+
+  }
+  .city__content-info{
+    flex-direction: column;
+    align-items: center;
+
+  }
+
+  .city__title{
+    text-align: center;
+    margin-right: 0;
+    margin-bottom: 40px;
+    text-transform: uppercase;
+  }
+
+  .city__text-content{
+    width: 570px;
+    text-align: center;
+    margin-right: 0;
+    margin-bottom: 40px;
+  }
 }

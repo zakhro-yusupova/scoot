@@ -27,3 +27,23 @@ width: 445px;
   color: $text-color;
   margin: 24px 0 40px;
 }
+
+
+
+@media only screen and (max-width: 769px){
+
+  .zero-hassle{
+    width: 100%;
+    padding: 0;
+
+    background-position: calc(50% + 280px) calc(50% - 100px);
+    background-size: center ;
+  }
+
+  .zero-hassle__content{
+    width: 70%;
+    margin: 0 auto;
+    text-align: center;
+    padding-top: 700px;
+  }
+}

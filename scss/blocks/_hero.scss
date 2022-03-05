@@ -6,11 +6,10 @@
 }
 
 .hero__inner{
-position: relative;
-
-    background-image: url("../../images/hero-right-arrow.png");
-    background-repeat: no-repeat;
-background-position: calc(50% + 230px) calc(50% + 85px);
+  position: relative;
+  background-image: url("../../images/hero-right-arrow.png");
+  background-repeat: no-repeat;
+  background-position: calc(50% + 230px) calc(50% + 85px);
 
 
   &::after{
@@ -28,18 +27,18 @@ background-position: calc(50% + 230px) calc(50% + 85px);
 .hero__content{
   width: 500px;
   color: $white-color;
-position: relative;
+  position: relative;
 
-&::before{
-  content: "";
-  width: 203px;
-  height: 15px;
-  background-image: url("../../images/hero-line.png");
-  background-repeat: no-repeat;
-  position: absolute;
-  top: 187px;
-  left: -220px;
-}
+  &::before{
+    content: "";
+    width: 203px;
+    height: 15px;
+    background-image: url("../../images/hero-line.png");
+    background-repeat: no-repeat;
+    position: absolute;
+    top: 187px;
+    left: -220px;
+  }
 
 }
 
@@ -62,4 +61,36 @@ position: relative;
   font-size: 15px;
   line-height: 25px;
   margin: 40px 0;
+}
+
+
+
+@media only screen and (max-width: 769px){
+
+  .hero{
+    padding: 137px 0 180px;
+    background-image: url("../../images/tablet-home-bg.png");
+  }
+
+  .hero__inner{
+    background-image: none;
+    text-align: center;
+
+    &::after{
+      display: none;
+    }
+  }
+
+  .hero__content{
+    margin: 0 auto;
+
+    &::before{
+      display: none;
+    }
+  }
+
+  .hero__content-info{
+    padding-left:0;
+  }
+
 }

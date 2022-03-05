@@ -1,8 +1,8 @@
-.values{
+.join{
   padding: 80px 0 120px;
 }
 
-.values__title{
+.join__title{
   font-weight: bold;
   font-size: 48px;
   line-height: 48px;
@@ -12,14 +12,14 @@
   margin-bottom: 103px;
 }
 
-.values__list{
+.join__list{
   display: flex;
   align-items: center;
   list-style-type: none;
   padding: 0;
 }
 
-.values__item{
+.join__item{
   width: 350px;
   text-align: center;
 
@@ -28,7 +28,7 @@
   }
 }
 
-.values__subtitle{
+.join__subtitle{
   font-weight: bold;
   font-size: 24px;
   line-height: 28px;
@@ -37,7 +37,7 @@
   color: $title-color;
 }
 
-.values__text{
+.join__text{
   font-family: "Lexend Deca";
   font-style: normal;
   font-weight: normal;
@@ -45,3 +45,19 @@
   line-height: 25px;
   color: $text-color;
 }
+
+@media only screen and (max-width: 769px){
+
+  .join__title{
+    margin-bottom: 80px;
+  }
+
+    .join__list{
+    flex-direction: column;
+    }
+
+
+    .join__item{
+    width: 460px ;
+    }
+  }
