@@ -1,5 +1,5 @@
 .faqs{
-padding-bottom: 200px;
+  padding-bottom: 200px;
 }
 
 .faqs__title{
@@ -21,15 +21,15 @@ padding-bottom: 200px;
 
 .faqs__subtitle{
   font-weight: bold;
-font-size: 40px;
-line-height: 48px;
-letter-spacing: -1.78571px;
-color: $title-color;
+  font-size: 40px;
+  line-height: 48px;
+  letter-spacing: -1.78571px;
+  color: $title-color;
 }
 
 .faqs__accordion{
-width: 730px;
-height: 460px;
+  width: 730px;
+  height: 460px;
 }
 
 .faqs__accordion-item , .faqs__button-title{
@@ -85,17 +85,35 @@ height: 460px;
 
   .faqs__infofirst{
     align-items: center;
-   flex-direction: column;
+    flex-direction: column;
   }
 
-.faqs__subtitle{
-  text-align: center;
-  margin-bottom: 40px;
+  .faqs__subtitle{
+    text-align: center;
+    margin-bottom: 40px;
+  }
+
+  .faqs__infosecond{
+    align-items: center;
+    flex-direction: column;
+  }
+
 }
 
-.faqs__infosecond{
-  align-items: center;
- flex-direction: column;
+
+@media only screen and (max-width: 426px){
+
+  .faqs{
+    padding-bottom: 20px;
+  }
+
+.faqs__infofirst{
+  margin-bottom: 50px ;
 }
+  .faqs__accordion{
+   width: 100%;
+   height: auto;
+  }
+
 
 }

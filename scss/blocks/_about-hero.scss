@@ -41,3 +41,20 @@
     padding-left: 92px;
   }
   }
+
+
+  @media only screen and (max-width: 426px){
+
+    .about-hero{
+      background-image: url("../../images/about-mobile.png");
+    }
+
+    .about-hero__inner::before{
+    display: none;
+      }
+
+    .about-hero__title{
+      text-align: center;
+      padding-left: 0;
+    }
+  }

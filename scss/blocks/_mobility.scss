@@ -45,3 +45,25 @@ width: 445px;
     padding-top: 700px;
   }
 }
+
+
+@media only screen and (max-width: 426px){
+
+  .mobility{
+    width: 100%;
+    padding: 100px 0;
+    background-image: url("../../images/mobility-mobile.png");
+    background-position: calc(50% + 20px) calc(50% - 150px);
+    background-size: 100% ;
+  }
+
+  .mobility__content{
+    width: 80%;
+    padding-top: 450px;
+  }
+
+  .mobility__title{
+    font-size: 32px;
+    line-height: 32px;
+  }
+}

@@ -61,3 +61,18 @@
     width: 460px ;
     }
   }
+
+  @media only screen and (max-width: 426px){
+
+.join{
+  padding-top: 0;
+}
+
+    .join__title{
+      margin-bottom: 20px;
+    }
+
+      .join__item{
+      width: 90% ;
+      }
+    }

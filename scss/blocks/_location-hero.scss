@@ -37,3 +37,21 @@
 }
 
 }
+
+
+
+@media only screen and (max-width: 426px){
+
+  .location-hero{
+    background-image: url("../../images/careers-mobile.png");
+  }
+
+  .location-hero__inner::before{
+  display: none;
+    }
+
+  .location-hero__title{
+    text-align: center;
+    padding-left: 0;
+  }
+}

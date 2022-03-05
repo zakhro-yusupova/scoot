@@ -43,8 +43,33 @@
 
 @media only screen and (max-width: 769px){
 
-.employees{
-  padding-bottom: 20px;
+  .employees{
+    padding-bottom: 20px;
+  }
+
 }
 
+@media only screen and (max-width: 426px){
+
+  .employees__item{
+    width: 90%;
+    flex-direction: column;
+    text-align: center;
+    padding: 32px;
+  }
+
+  .employees__title{
+    font-size: 18px;
+    line-height: 24px;
+  }
+
+  .employees__country{
+    display: block;
+    margin-bottom: 20px;
+  }
+
+
+  .employees__link{
+    padding: 14px 80px;
+  }
 }

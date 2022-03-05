@@ -40,3 +40,20 @@
     padding-left: 90px;
   }
   }
+
+
+  @media only screen and (max-width: 426px){
+
+    .careers-hero{
+      background-image: url("../../images/careers-mobile.png");
+    }
+
+    .careers-hero__inner::before{
+    display: none;
+      }
+
+    .careers-hero__title{
+      text-align: center;
+      padding-left: 0;
+    }
+  }
